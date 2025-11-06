@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://job-project-front-end-vercel.vercel.app",
+      "https://job-project-front-end-vercel-lto6xuqxk.vercel.app",
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:8000",
