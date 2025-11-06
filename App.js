@@ -5,6 +5,8 @@ const cookieParser = require("cookie-parser");
 
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
+app.set("trust proxy", 1);
+
 // Middlewares
 app.use(express.json());
 app.use(
